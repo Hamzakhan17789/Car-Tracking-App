@@ -1,0 +1,12 @@
+.responsive-table th {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  .tableFilter{
+    height: 35px;
+    width: 161px;
+    background-color: red;
+  }

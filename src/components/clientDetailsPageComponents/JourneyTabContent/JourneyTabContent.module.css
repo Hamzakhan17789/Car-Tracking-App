@@ -1,0 +1,68 @@
+.tabStyle {
+  margin: 0 0 0 0px;
+  background: #f2f4f7;
+  padding: 5px;
+}
+.tabStyleHover {
+  background: #ffffff;
+  font-weight: 600;
+  font-size: 9px;
+  padding: 5px;
+  box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1),
+    0px 1px 2px rgba(16, 24, 40, 0.06);
+  border-radius: 3.63636px;
+  color: #344054;
+}
+.tabStyleNormal {
+  font-weight: 600;
+  font-size: 9px;
+  color: #667085;
+}
+.journeyMapParent {
+  height: calc(100vh - 190px);
+  margin-top: 10px;
+  position: relative;
+}
+.journeyMapOverlay {
+  position: absolute;
+  top: 0;
+}
+.journeyMapOverlayCollapse {
+  display: none;
+}
+
+.collapseArrow {
+  width: 18px;
+  height: 36px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000012;
+  border: 1px solid #f2f2f5;
+  border-radius: 0px 3px 3px 0px;
+  opacity: 1;
+  display: block;
+  position: absolute;
+  left: 315px;
+  bottom: 327px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.collapseArrowCollapased {
+  width: 18px;
+  height: 36px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000012;
+  border: 1px solid #f2f2f5;
+  border-radius: 0px 3px 3px 0px;
+  opacity: 1;
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: 327px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

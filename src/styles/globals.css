@@ -1,0 +1,26 @@
+html,
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+:root {
+  --bs-nav-link-padding-y: 0.2rem;
+  --bs-nav-link-padding-x: 0.5rem;
+}
+
+
+.responsive-table th {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: 'blue';
+}
+
+
+.ant-table-cell{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: 'blue';
+}

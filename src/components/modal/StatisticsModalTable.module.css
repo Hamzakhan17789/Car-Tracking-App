@@ -1,0 +1,21 @@
+.modalTableWrapper {
+}
+
+.tableFilter {
+  height: 35px;
+  width: inherit;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.dateRange {
+  height: 30px;
+  position: absolute;
+  left: 580px;
+
+  border-radius: 8px;
+  padding: 28px 11px 20px 11px;
+}

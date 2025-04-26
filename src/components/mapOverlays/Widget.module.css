@@ -1,0 +1,9 @@
+.widgetContainer{
+    background-color: rgba(255, 255, 255 , 0.7);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    right:0px;
+    padding: 5px;
+}

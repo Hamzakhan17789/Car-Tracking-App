@@ -1,0 +1,35 @@
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.container, .sideTabs, .sideTabs > div,.sideTabs > div > div  {
+  height: 100%;
+}
+
+.sideTabs>ul {
+  flex-wrap: nowrap;
+}
+
+.sideTabs>ul>li > a[class*="active"] {
+  background-color: var(--bs-body-color) !important;
+  color: var(--bs-body-bg) !important;
+}
+
+.sideTabs>ul>li>a {
+  padding: 0.2rem 0.6rem;
+  margin: 0.1rem;
+  border-radius: 0.2rem !important;
+  color: var(--bs-body-color) !important;
+  font-size: small;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card * {
+  color: var(--bs-white);
+}

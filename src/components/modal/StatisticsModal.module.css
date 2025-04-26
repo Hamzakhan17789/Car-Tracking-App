@@ -1,0 +1,96 @@
+.modal {
+  display: flex;
+
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+
+  align-items: center;
+  width: 914px;
+  height: 22px;
+}
+
+.headingFont {
+  font: "inter";
+  font-weight: bold;
+  size: 14px;
+  line-height: 21px;
+}
+
+.vehicleInfo {
+  display: flex;
+  height: 160px;
+  flex-direction: column;
+}
+
+.vehicleDestination {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 40%;
+  position: relative;
+}
+
+.vehicleName {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.downloadBtn {
+  width: 101px;
+  height: 31px;
+  border-radius: 6px;
+  position: absolute;
+  font-weight: 600;
+  bottom: 95%;
+  right: 16px;
+  font-size: 10px;
+  padding-left: 35px;
+}
+
+.vehicleDetail {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+  position: relative;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 12px;
+background-color: #4488F00D;
+}
+
+.firstBox {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: center;
+
+}
+
+.secondBox {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: center;
+}
+
+.thirdBox {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: center;
+}
+
+.fourthBox {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: center;
+}
+
+
+
+
+

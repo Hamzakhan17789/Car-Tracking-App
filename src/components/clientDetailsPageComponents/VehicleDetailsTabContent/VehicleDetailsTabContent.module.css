@@ -1,0 +1,59 @@
+.chartContainer {
+  filter: blur(2px);
+}
+.vehicleInformation {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: fit-content;
+}
+
+.vehicleInformationCollapse {
+  display: none;
+  left: 0px;
+  bottom: 0px;
+  width: fit-content;
+}
+
+.speedOverlay {
+  position: absolute;
+  right: 60px;
+  bottom: 0px;
+  width: fit-content;
+}
+
+.collapseArrow {
+  width: 18px;
+  height: 36px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000012;
+  border: 1px solid #f2f2f5;
+  border-radius: 0px 3px 3px 0px;
+  opacity: 1;
+  display: block;
+  position: absolute;
+  left: 250px;
+  bottom: 327px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.collapseArrowCollapased {
+  width: 18px;
+  height: 36px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000012;
+  border: 1px solid #f2f2f5;
+  border-radius: 0px 3px 3px 0px;
+  opacity: 1;
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: 327px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.container {
+    position: relative;
+    right: 412px;
+    bottom: 110px;
+  }
+  
+  .vehicleInformationContent {
+    position: sticky;
+  }
