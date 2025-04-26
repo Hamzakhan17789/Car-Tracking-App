@@ -28,20 +28,17 @@ const Dashboard: NextPage = () => {
   //   });
   // }, []);
 
+  let token: any;
 
-let token: any;
+  if (typeof window !== "undefined") {
+    token = sessionStorage.getItem("token");
+  }
 
-if(typeof  window !== "undefined"){
-  token = sessionStorage.getItem('token')
-}
+  ////console.log( "token is "+Boolean(token))
+  ////console.log(token)
 
-////console.log( "token is "+Boolean(token))
-////console.log(token)
-
-const render = token === false ? <Login /> : <HomePage />
-  return render
-    
-    
+  const render = <HomePage />;
+  return render;
 };
 
- export default Dashboard;
+export default Dashboard;

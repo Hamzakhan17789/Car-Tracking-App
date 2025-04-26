@@ -241,9 +241,7 @@ const LayoutDesign = React.memo(
             content="Track your vehicles, protect your assets, and keep your fleet safe and secure with s3ctr."
           />
         </Head>
-        {!token ? (
-          <LoginComponent />
-        ) : (
+       (
           <Layout style={{ minHeight: "100vh" }}>
             <Sider
               breakpoint="lg"
@@ -357,7 +355,7 @@ const LayoutDesign = React.memo(
                 }}
               >
                 <p style={{ color: "#74788D", fontSize: "11px", alignSelf: "center", }}                >
-                {(new Date().getFullYear())} © DSPACO INC. Version 0.1.0
+                {/* {(new Date().getFullYear())} © DSPACO INC. Version 0.1.0 */}
                 </p>
               </Footer>
             </Layout>

@@ -20,10 +20,9 @@ const Login = () => {
     //console.loglog("Failed:", errorInfo);
   };
 
-  if(typeof window === "undefined"){
-    return <p>Please Wait...</p>
+  if (typeof window === "undefined") {
+    return <p>Please Wait...</p>;
   }
-
 
   return (
     <div style={{ height: "100vh", display: "flex", justifyContent: "center" }}>
@@ -92,11 +91,15 @@ const Login = () => {
 
           <Form.Item>
             {isLoading ? (
-              <Button type="primary" style={{width:"100%"}} loading>
+              <Button type="primary" style={{ width: "100%" }} loading>
                 Loading
               </Button>
             ) : (
-              <Button type="primary" htmlType="submit" style={{width:"100%"}}>
+              <Button
+                type="primary"
+                htmlType="submit"
+                style={{ width: "100%" }}
+              >
                 Signin
               </Button>
             )}
@@ -107,8 +110,8 @@ const Login = () => {
   );
 };
 /*
-export default dynamic(() => Promise.resolve(Login), { 
-  ssr: false 
+export default dynamic(() => Promise.resolve(Login), {
+  ssr: false
 })
 */
-export default Login
+export default Login;
